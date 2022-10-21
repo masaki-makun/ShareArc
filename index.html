@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="./dist/bundle.js"></script>
+    <link rel="stylesheet" href="./dist/styles.css" />
+    <title>ShareArc</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <h3 class="container__payoff">Sharing service</h3>
+        <h1 class="container__title">ShareArc</h1>
+        <div class="box">
+          <div class="box-header">
+            <div class="box-header__inner">
+              <button
+                class="btn hamburger-menu"
+                type="button"
+                title="Hamburger"
+              >
+                <span class="hamburger-menu__text"></span>
+              </button>
+              <div
+                class="box-header-menu box-header-menu--1 is-active"
+                data-menus
+
+              >
+                <ul class="box-header-menu__list">
+                  <li class="box-header-menu__item is-active" data-menu>
+                    <a href="" class="box-header-menu__link">
+                      <span class="box-header-menu__icon">
+                        <i class="fa-solid fa-person-biking"></i>
+                      </span>
+                      <p class="box-header-menu__text">Bicycle</p>
+                    </a>
+                  </li>
+                  <li class="box-header-menu__item" data-menu>
+                    <a href="" class="box-header-menu__link">
+                      <span class="box-header-menu__icon">
+                        <i class="fa-solid fa-car"></i>
+                      </span>
+                      <p class="box-header-menu__text">Car</p>
+                    </a>
+                  </li>
+                  <li class="box-header-menu__item" data-menu>
+                    <a href="" class="box-header-menu__link">
+                      <span class="box-header-menu__icon">
+                        <i class="fa-solid fa-caravan"></i>
+                      </span>
+                      <p class="box-header-menu__text">Caravan</p>
+                    </a>
+                  </li>
+                  <li class="box-header-menu__item" data-menu>
+                    <a href="" class="box-header-menu__link">
+                      <span class="box-header-menu__icon">
+                        <i class="fa-solid fa-motorcycle"></i>
+                      </span>
+                      <p class="box-header-menu__text">Motor</p>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="box-header-menu box-header-menu--2" data-menus>
+                <ul class="box-header-menu__list">
+                  <li class="box-header-menu__item is-active" data-menu>
+                    <a href="" class="box-header-menu__link">
+                      <span class="box-header-menu__icon">
+                        <i class="fa-solid fa-people-group"></i>
+                      </span>
+                      <p class="box-header-menu__text">About</p>
+                    </a>
+                  </li>
+                  <li class="box-header-menu__item" data-menu>
+                    <a href="" class="box-header-menu__link">
+                      <span class="box-header-menu__icon">
+                        <i class="fa-solid fa-handshake"></i>
+                      </span>
+                      <p class="box-header-menu__text">Partners</p>
+                    </a>
+                  </li>
+                  <li class="box-header-menu__item" data-menu>
+                    <a href="" class="box-header-menu__link">
+                      <span class="box-header-menu__icon">
+                        <i class="fa-solid fa-rss"></i>
+                      </span>
+                      <p class="box-header-menu__text">Blog</p>
+                    </a>
+                  </li>
+                  <li class="box-header-menu__item" data-menu>
+                    <a href="" class="box-header-menu__link">
+                      <span class="box-header-menu__icon">
+                        <i class="fa-solid fa-phone"></i>
+                      </span>
+                      <p class="box-header-menu__text">Contact</p>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="box-header-menu box-header-menu--3">
+                <div class="box-header-menu__form">
+                  <input
+                    type="text"
+                    class="box-header-menu__form--input"
+                    name=""
+                    placeholder="TOYOTA Aqua, NISSAN..."
+                  />
+                </div>
+              </div>
+              <button class="btn btn-search" title="Search Button"></button>
+            </div>
+          </div>
+
+          <div class="box-contents box-contents--1 is-active" data-contents>
+            <div class="box-content is-active" data-content>
+              <div class="box-content--top">
+                <div class="box-content__img-wrap">
+                  <h1 class="box-content__img--title">Bicycle</h1>
+                  <img
+                    src="src/img/shareArc_img--bicycle.svg"
+                    alt="Bicycle"
+                    class="box-content__img"
+                  />
+                </div>
+              </div>
+              <div class="box-content--bottom">
+                <p class="box-content__text">スタート地点を入力してください｡</p>
+                <div class="box-content__form">
+                  <input
+                    type="text"
+                    class="box-content__input"
+                    placeholder="Tokyo, JP"
+                    data-input
+                  />
+                  <input
+                    type="submit"
+                    class="box-content__submit btn btn-start"
+                    value="START"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="box-content" data-content>
+              <div class="box-content--top">
+                <div class="box-content__img-wrap">
+                  <h1 class="box-content__img--title">Car</h1>
+                  <img
+                    src="src/img/shareArc_img--car.svg"
+                    alt="Car"
+                    class="box-content__img"
+                  />
+                </div>
+              </div>
+              <div class="box-content--bottom">
+                <p class="box-content__text">スタート地点を入力してください｡</p>
+                <div class="box-content__form">
+                  <input
+                    type="text"
+                    class="box-content__input"
+                    placeholder="Tokyo, JP"
+                    data-input
+                  />
+                  <input
+                    type="submit"
+                    class="box-content__submit btn btn-start"
+                    value="START"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="box-content" data-content>
+              <div class="box-content--top">
+                <div class="box-content__img-wrap">
+                  <h1 class="box-content__img--title">Caravan</h1>
+                  <img
+                    src="src/img/shareArc_img--caravan.svg"
+                    alt="Caravan"
+                    class="box-content__img"
+                  />
+                </div>
+              </div>
+              <div class="box-content--bottom">
+                <p class="box-content__text">スタート地点を入力してください｡</p>
+                <div class="box-content__form">
+                  <input
+                    type="text"
+                    class="box-content__input"
+                    placeholder="Tokyo, JP"
+                    data-input
+                  />
+                  <input
+                    type="submit"
+                    class="box-content__submit btn btn-start"
+                    value="START"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="box-content" data-content>
+              <div class="box-content--top">
+                <div class="box-content__img-wrap">
+                  <h1 class="box-content__img--title">Motor</h1>
+                  <img
+                    src="src/img/shareArc_img--motorbike.svg"
+                    alt="Motor"
+                    class="box-content__img"
+                  />
+                </div>
+              </div>
+              <div class="box-content--bottom">
+                <p class="box-content__text">スタート地点を入力してください｡</p>
+                <div class="box-content__form">
+                  <input
+                    type="text"
+                    class="box-content__input"
+                    placeholder="Tokyo, JP"
+                    data-input
+                  />
+                  <input
+                    type="submit"
+                    class="box-content__submit btn btn-start"
+                    value="START"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="box-contents box-contents--2" data-contents>
+            <div class="box-content is-active" data-content>
+              <div class="box-content--top">
+                <div class="box-content__img-wrap">
+                  <h1 class="box-content__img--title">About us</h1>
+                  <img
+                    src="src/img/shareArc_img--about.svg"
+                    alt="About"
+                    class="box-content__img"
+                  />
+                </div>
+              </div>
+              <div class="box-content--bottom">
+                <p class="box-content__text">Text of about content.</p>
+              </div>
+            </div>
+            <div class="box-content" data-content>
+              <div class="box-content--top">
+                <div class="box-content__img-wrap">
+                  <h1 class="box-content__img--title">Partners</h1>
+                  <img
+                    src="src/img/shareArc_img--partners.svg"
+                    alt="Partners"
+                    class="box-content__img"
+                  />
+                </div>
+              </div>
+              <div class="box-content--bottom">
+                <p class="box-content__text">Text of partners content.</p>
+              </div>
+            </div>
+            <div class="box-content" data-content>
+              <div class="box-content--top">
+                <div class="box-content__img-wrap">
+                  <h1 class="box-content__img--title">Blog</h1>
+                  <img
+                    src="src/img/shareArc_img--blog.svg"
+                    alt="Blog"
+                    class="box-content__img"
+                  />
+                </div>
+              </div>
+              <div class="box-content--bottom">
+                <p class="box-content__text">Text of blog content.</p>
+              </div>
+            </div>
+            <div class="box-content" data-content>
+              <div class="box-content--top">
+                <div class="box-content__img-wrap">
+                  <h1 class="box-content__img--title">Contact</h1>
+                  <img
+                    src="src/img/shareArc_img--contact.svg"
+                    alt="Contact"
+                    class="box-content__img"
+                  />
+                </div>
+              </div>
+              <div class="box-content--bottom">
+                <p class="box-content__text">Text of contact content.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
